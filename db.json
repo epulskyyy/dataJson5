@@ -18,9 +18,13 @@
         }
     ]
   },
-  "laporanInvoice": {
+  "1": {
     "status": "Success",
     "responseCode": "200",
+    "page": 1,
+    "per_page": 5,
+    "total": 10,
+    "total_page": 2,
     "data": [
         {
             "date": "2020-05-13T12:58:35+07:00",
@@ -56,12 +60,50 @@
             "response_code": "0100",
             "response_description": "Inquiry success",
             "status_code": "Success"
+        }
+    ]
+  }
+  "2": {
+    "status": "Success",
+    "responseCode": "200",
+    "page": 1,
+    "per_page": 5,
+    "total": 10,
+    "total_page": 2,
+    "data": [
+        {
+            "date": "2020-05-13T12:58:35+07:00",
+            "request": "************187",
+            "response_code": "0100",
+            "response_description": "Inquiry success",
+            "status_code": "Failed"
         },
         {
-            "date": "2020-05-13T13:05:35+07:00",
-            "request": "***********565",
-            "response_code": "",
-            "response_description": "",
+            "date": "2020-05-13T12:59:35+07:00",
+            "request": "************570",
+            "response_code": "0100",
+            "response_description": "Inquiry success",
+            "status_code": "Success"
+        },
+        {
+            "date": "2020-05-13T13:00:35+07:00",
+            "request": "************57",
+            "response_code": "0100",
+            "response_description": "Inquiry success",
+            "status_code": "Failed"
+        },
+        {
+            "date": "2020-05-13T13:02:41+07:00",
+            "request": "************321",
+            "response_code": "0100",
+            "response_description": "Inquiry success",
+            "status_code": "Success"
+        },
+        {
+            "date": "2020-05-13T13:03:41+07:00",
+            "request": "************162",
+            "response_code": "0100",
+            "response_description": "Inquiry success",
             "status_code": "Failed"
         }
     ]
